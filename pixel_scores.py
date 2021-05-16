@@ -4,7 +4,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-
+##
 def score_pixels(img) -> np.ndarray:
         """
         도로 이미지를 촬영하고 픽셀 강도가 차선의 일부일 가능성에 매핑되는 이미지를 반환한다.
